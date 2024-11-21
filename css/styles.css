@@ -13,7 +13,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #6fb2fa;
+  color: #787;
   margin-bottom: 0.5rem;
 }
 
@@ -34,15 +34,15 @@ h3 {
 }
 
 .btn-primary {
-  background-color: #6fb2fa;
+  background-color: #787;
   border: none;
 }
 .btn-primary:hover {
-  background-color: #3e98f8;
+  background-color: #5f6d5f;
 }
 
 .header {
-  background-color: #6fb2fa;
+  background-color: #787;
   padding: 1rem 0;
 }
 .header .navbar-brand img {
@@ -58,7 +58,7 @@ h3 {
   color: #f8f9fa;
 }
 .footer a:hover {
-  color: #6fb2fa;
+  color: #787;
 }
 
 .container {

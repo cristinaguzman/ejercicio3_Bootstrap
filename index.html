@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Cristina Guzmán" />
     <title>Hospital Privado Doctor Salud</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
@@ -22,10 +22,13 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a href="./index.html" class="nav-link">Inicio</a>
+                    <a href="index.html" class="nav-link">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a href="./medicos.html" class="nav-link">Equipo</a>
+                    <a href="medicos.html" class="nav-link">Equipo</a>
+                </li>
+                <li class="nav-item">
+                    <a href="equipomedico.html" class="nav-link">Equipo Médico</a>
                 </li>
                 <li class="nav-item">
                     <a href="./contacto.html" class="nav-link">Contacto</a>
@@ -92,6 +95,24 @@
         </div>
     </section>
 
+    <!-- Sección de Contacto con Validación -->
+<section class="contact bg-light py-5" id="contacto">
+    <div class="container">
+        <header class="text-center mb-5">
+            <h2 class="h2">Contáctanos</h2>
+            <p>Ingresa tu número de teléfono y nos pondremos en contacto contigo.</p>
+        </header>
+        <form id="contactForm" class="text-center">
+            <div class="form-group">
+                <label for="phone">Número de Teléfono:</label>
+                <input type="text" id="phone" name="phone" class="form-control w-50 mx-auto" placeholder="Ejemplo: 5551234567" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+        <p id="error-message" class="text-danger mt-3" style="display: none;">Por favor, ingresa un número válido.</p>
+    </div>
+</section>
+
     <!-- Pie de página -->
     <footer class="footer bg-dark text-white py-4">
         <div class="container text-center">
@@ -114,5 +135,6 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
