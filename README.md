@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 1.-Event Loop en JavaScript
 El Event Loop es un mecanismo fundamental en JavaScript que permite manejar tareas asíncronas y coordinar la ejecución del código en un solo hilo.
 
@@ -38,3 +39,9 @@ El código incluye el comando `debugger` en el bloque de validación del número
 2. Ve a la pestaña "Sources" y recarga la página.
 3. Al ingresar un número de teléfono en el formulario, el flujo se pausará en el comando `debugger`.
 4. Desde allí, puedes inspeccionar variables como `phoneInput` o rastrear errores.
+=======
+# ejercicio3_Bootstrap
+
+Ejercicio Hospital clínico, 
+hecho con Bootstrap, metología BEM y sass 7-1
+>>>>>>> 81bb4b8988abe2c55c056434d10f8e3120426a1c
